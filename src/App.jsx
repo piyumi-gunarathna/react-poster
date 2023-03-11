@@ -1,5 +1,10 @@
+import PostsList from "./components/PostsList";
 function App() {
-  return <div>Hello!</div>;
+  return (
+    <main>
+      <PostsList/>
+    </main>
+  );
 }
 
 export default App;
